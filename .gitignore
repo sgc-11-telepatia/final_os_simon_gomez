@@ -1,0 +1,33 @@
+# AWS Keys
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+package/
+
+# Lambda
+lambda_function.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PDFs (optional - descomenta si no quieres subir PDFs)
+# *.pdf
