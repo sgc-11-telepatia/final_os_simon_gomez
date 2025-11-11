@@ -15,7 +15,6 @@ EXAMEN_FINAL_SIMON_GOMEZ/
 │   ├── deploy.sh
 │   ├── Solution/        # Capturas de pantalla
 │   └── README.md
-├── llavepem.pem        # Clave privada EC2 (no incluir en git)
 └── README.md           # Este archivo
 ```
 
