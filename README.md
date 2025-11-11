@@ -2,6 +2,15 @@
 
 Despliegue de una aplicación FastAPI en AWS Lambda usando Mangum como adaptador y API Gateway para acceso público.
 
+## Plan de Implementación
+
+1. **Empaquetar aplicación**: Crear ZIP con app.py + dependencias (fastapi, mangum) compiladas para Linux x86_64
+2. **Crear función Lambda**: Runtime Python 3.12, Handler `app.mangum`
+3. **Configurar API Gateway**: HTTP API como trigger para acceso público
+4. **Probar endpoints**: GET / y GET /saludo/{nombre}
+
+Ver detalles técnicos en [NOTAS_IMPLEMENTACION.md](./NOTAS_IMPLEMENTACION.md)
+
 ## Descripción
 
 Esta aplicación implementa dos endpoints simples:
